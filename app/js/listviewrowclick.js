@@ -50,6 +50,7 @@ BfsListViewRowClick.addLightningRowOnClickCheckboxEventHandlerWhenListViewRowsAd
                     addedNode.className.indexOf('actionColumnHeader') != -1) {
                     debugger;
                     BfsListViewRowClick.addRowOnClickCheckBoxEventHandlerInLightning();
+                    return;
                 }
             }
         }
